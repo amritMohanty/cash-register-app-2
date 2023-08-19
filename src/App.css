@@ -1,11 +1,50 @@
 
 
+.table-box{
+  background-color: rgb(153, 222, 245);
+  text-align: center;
+  height: 4vh;
+  font-weight: 300;
+  width: 4vh;
+  border-radius: 5px;
+  border: 2px solid black;
+  font-size: larger;
+}
+
+table{
+  margin: 2vh 1vh;
+  padding: 0vh;
+}
 
 .container{
   display: flex;
   flex-direction: column;
 }
 
+h1{
+  font-weight: 300;
+}
+
+.App{
+  margin-top: 20vh;
+  background-color: #c2dbe7;
+  padding: 2vh;
+  border-radius: 5px;
+  box-shadow: 2vh 2.5vh 2vh rgb(45, 44, 44);
+  border: 1vh solid rgb(41, 133, 255);
+  /* color: aliceblue; */
+}
+
+#message{
+  margin-top: 1vh;
+  font-size: larger;
+  font-weight: bolder;
+  color: red;
+  text-align:center;
+  border: 2px solid red;
+  border-radius: 5px;
+  padding: 2vh;
+}
 /* .container--input{
 display: flex;
 flex-direction: column;
